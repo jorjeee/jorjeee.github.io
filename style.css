@@ -4,5 +4,26 @@
 }
 
 .card {
-    position: center;
+    float: right;
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.card-box {
+    padding-top: 70px;
+    padding-right: 350px;
+}
+
+.picture {
+    float: left;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 0px;
+    margin: 20px;
+}
+
+.picture-box {
+    padding-top: 100px;
+    padding-left: 150px;
 }
