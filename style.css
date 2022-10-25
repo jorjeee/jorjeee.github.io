@@ -1,5 +1,5 @@
 .container {
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 .rounded-circle {
@@ -23,7 +23,7 @@
     float: left;
     width: 300px;
     border: 1px solid black;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 20px;
     margin: 20px;
 }
 
