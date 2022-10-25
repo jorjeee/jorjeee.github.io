@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
 .navbar {
     background-color: #ffffff;
     box-shadow: 0px 2px 5px 3px whitesmoke;
@@ -8,38 +15,56 @@
     padding-left: 20px;
 }
 
-.container {
-    padding-top: 0px;
-    padding-left: 20px;
-    line-height: 45px;
-}
-
 .rounded-circle {
-    width: 16em;
-    height: 16em;
+    width: 140px;
+    height: 145px;
+    border-radius: 50%;
 }
 
-.card {
-    float: right;
-    width: 400px;
-    padding: 10px 10px 10px 10px;
-    margin: 10px;
+.profile-box {
+    padding-top: 60px;
 }
 
-.card-box {
-    padding-top: 70px;
-    padding-right: 350px;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.picture {
-    float: left;
-    width: 300px;
-    border: 1px solid black;
-    padding: 10px 10px 10px 20px;
-    margin: 20px;
+.card-profile {
+    width: 90%;
+    max-width: 440px;
+    color: black;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter:  blur(5px);
 }
 
-.picture-box {
-    padding-top: 100px;
-    padding-left: 150px;
+.card-profile h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card-profile p {
+    font-size: 16px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    background:  #fff;
+    color: #ff01cf;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+    box-shadow: 0px 2px 5px 3px whitesmoke;
 }
